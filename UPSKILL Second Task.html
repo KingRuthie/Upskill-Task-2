@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title>UPSKILL Second Task </title>
+    
+        </head> <link rel="stylesheet" href="styles.css"
+
+           <body>
+            <h1>Creating a Simple Survey Form</h1>
+    
+        <h4><u> Please fill in the required details as follows below:</u></h4>
+
+        <form>
+            
+                <label for="Name">Name:</label>
+                <input type="text" placeholder="Enter your Full Name">
+            
+                <label for="Email">Email:</label>
+                <input type="Email" placeholder="Enter your Email">
+            
+            <br>
+            <br>
+
+            <label for="Password">Password:</label>
+            <input type="password" placeholder="Enter your Password">
+
+            <label for="Number">Number:</label>
+            <input type="tel" name="Phone Number" id="Phone Number" placeholder="Enter your Phone Number">
+
+            <br>
+            <br>
+            
+            <label for="Age Range">Age</label>
+            <br>
+            <select name="Age Range">
+                <option value="16-25">16-25</option>
+                <option value="26-35">26-35</option>
+                <option value="36-50">36-50</option>
+                <option value="Above 50">Above 50</option>
+            </select>
+
+            <br>
+            <br>
+            
+                <label for="date">Birthday</label>
+                <br>
+                <input type="date" name="Calendar" id="Birthday">
+
+            <br>
+            <br>
+
+            <section>
+                <label for="gender">Gender</label>
+            <br>
+            <input type="radio" name="gender"> Male
+            <br>
+            <input type="radio" name="gender"> Female
+            <br>
+            <input type="radio" name="gender"> Other
+            </section>
+
+            <br>
+            
+            <section>
+                <label for="question">Which option best describes you?</label>
+            <br>
+            <select name="question">
+                <option value="Student">Student</option>
+                <option value="Working Class">Working Class</option>
+                <option value="Business Owner">Business Owner</option>  
+            </select>
+            </section>
+
+            <br>
+
+            <section>
+                <label for="Relationshp Status">Relationshp Status</label>
+            <br>
+            <input type="radio" name="Relationshp Status"> Single
+            <br>
+            <input type="radio" name="Relationshp Status"> Married
+            </section>
+
+            <br>
+
+            <section>
+                <label for="question">Which continent are you currently in?</label>
+            <br>
+            <select name="question">
+                <option value="Asia">Asia</option>
+                <option value="Africa">Africa</option>
+                <option value="Europe">Europe</option> 
+                <option value="Australia">Australia</option>  
+                <option value="North America">North America</option>  
+                <option value="South America">South America</option>  
+            </select>
+            </section>
+
+            <br>
+            <p><strong><u>Language and Framework Level Assesment</u></strong></p>
+            <label for="Language and Framework Level Assesment">
+    Check the boxes indicating the Programming/Framework languages you speak and rate your proficiency level on a scale of 10-100.
+            </label>
+        
+            <div class="Language and Framework rating">
+                <input type="checkbox" name="Programming Language" id="C++">
+                <label for="C++">C++
+                    <input type="number" name="C++ rating" id="C++ rating" min="10" max="100">
+                </label>
+            
+                <input type="checkbox" name="Programming Language" id="Java">
+                <label for="Java">Java
+                    <input type="number" name="Java-rating" id="Java-rating" min="10" max="100">
+                </label>
+        
+                <input type="checkbox" name="Programming Language" id="Python">
+                <label for="Python">Python
+                    <input type="number" name="Python-rating" id="Python-rating" min="10" max="100">
+                </label>
+            </div>
+
+            <div class="Language and Framework rating">
+                <input type="checkbox" name="Programming Language" id="Html/CSS">
+                <label for="Html/CSS">Html/CSS
+                    <input type="number" name="Html/CSS-rating" id="Html/CSS-rating" min="10" max="100">
+                </label>
+            
+                <input type="checkbox" name="Programming Language" id="JavaScript">
+                <label for="JavaScript">JavaScript
+                    <input type="number" name="JavaScript-rating" id="JavaScript-rating" min="10" max="100">
+                </label>
+
+            <input type="checkbox" name="Programming Language" id="React">
+            <label for="React">React
+                <input type="number" name="React-rating" id="React-rating" min="10" max="100">
+            </label>
+
+        <input type="checkbox" name="Programming Language" id="Angular">
+        <label for="Angular">Angular
+            <input type="number" name="Angular-rating" id="Angular-rating" min="10" max="100">
+        </label>
+
+        <input type="checkbox" name="Programming Language" id="Django">
+        <label for="Django">Django
+        <input type="number" name="Django-rating" id="Django-rating" min="10" max="100">
+        </label>
+        
+         <input type="checkbox" name="Programming Language" id="Spring">
+        <label for="Spring">Spring
+        <input type="number" name="Spring-rating" id="Spring-rating" min="10" max="100">
+        </label>
+    </div>
+
+            <br>
+
+            <p><u><strong>Learning Experience Assesment</strong></u></p>
+            <label for="Learning Experience Assesment">
+                Describe your Experience with the Genesys Upskill Programme So far </label>
+            <div>
+            <textarea name="Learning Experience Assesment" id="Learning Experience Assesment" style="resize: none;" placeholder="Enter your Experience here"></textarea>
+            </div>
+    <br>
+            
+            <div>
+                <label for="question">Would you recommend the Genesys Upskill program to a friend?</label>
+                <br>
+            <input type="radio" name="question"> Yes
+            <input type="radio" name="question"> No
+            <input type="radio" name="question"> Maybe
+            </div>
+
+            <br>
+            <br>
+
+            <div style="text-align: center;">
+                <button type="submit">Submit</button>
+            </div>
+
+
+        </form>
+    
+</body>
+
+</html>
