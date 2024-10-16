@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: lightblue; 
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: #fff;
+    padding: 30px;
+    width: 60%;
+    box-shadow: 0 4px 12px rgba( 0, 0, 0, 0, 2);
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    margin: 0 auto;
+}
+
+h1,h4{
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0 3px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+      select, textarea {
+    width: 200px;
+    max-width: 400px;
+    font-size: 14px;
+    padding: 10px;
+    margin: 5px 0 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+div.Language-and-Framework-rating {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+div.Language-and-Framework-rating label {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    width: 45%;
+}
+
+button[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 16px;
+}
+
+button[type="submit"] :hover{
+    background-color: #45a049;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 60%;
+    height: 100px;
+    resize: none;
+    margin: 10px 0 20px;
+    padding: 10OX;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    form {
+        width: 90px;
+    }
+    div.Language-and-Framework-rating label {
+        width: 100px;
+    }
+    textarea {
+        width: 100px;
+    }
+}
